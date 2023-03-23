@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		AC44BC1929CCD4060063A2D8 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC44BC1829CCD4060063A2D8 /* Constant.swift */; };
 		AC44BC1D29CCD52B0063A2D8 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC44BC1C29CCD52B0063A2D8 /* FooterView.swift */; };
+		AC44BC1F29CCEBA30063A2D8 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC44BC1E29CCEBA30063A2D8 /* NavigationBarView.swift */; };
+		AC44BC2129CCECD00063A2D8 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC44BC2029CCECD00063A2D8 /* LogoView.swift */; };
 		ACCFB80A29CCC68A005A6B87 /* TouchdownApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCFB80929CCC68A005A6B87 /* TouchdownApp.swift */; };
 		ACCFB80C29CCC68A005A6B87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCFB80B29CCC68A005A6B87 /* ContentView.swift */; };
 		ACCFB80E29CCC68B005A6B87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACCFB80D29CCC68B005A6B87 /* Assets.xcassets */; };
@@ -22,6 +24,8 @@
 /* Begin PBXFileReference section */
 		AC44BC1829CCD4060063A2D8 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		AC44BC1C29CCD52B0063A2D8 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		AC44BC1E29CCEBA30063A2D8 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		AC44BC2029CCECD00063A2D8 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		ACCFB80629CCC68A005A6B87 /* Touchdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touchdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACCFB80929CCC68A005A6B87 /* TouchdownApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchdownApp.swift; sourceTree = "<group>"; };
 		ACCFB80B29CCC68A005A6B87 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -132,6 +136,8 @@
 			isa = PBXGroup;
 			children = (
 				AC44BC1C29CCD52B0063A2D8 /* FooterView.swift */,
+				AC44BC1E29CCEBA30063A2D8 /* NavigationBarView.swift */,
+				AC44BC2029CCECD00063A2D8 /* LogoView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -226,9 +232,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACCFB80C29CCC68A005A6B87 /* ContentView.swift in Sources */,
+				AC44BC2129CCECD00063A2D8 /* LogoView.swift in Sources */,
 				AC44BC1D29CCD52B0063A2D8 /* FooterView.swift in Sources */,
 				ACCFB80A29CCC68A005A6B87 /* TouchdownApp.swift in Sources */,
 				AC44BC1929CCD4060063A2D8 /* Constant.swift in Sources */,
+				AC44BC1F29CCEBA30063A2D8 /* NavigationBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
