@@ -40,7 +40,7 @@ struct NavigationBarView: View {
                 ZStack {
                     Image(systemName: "cart")
                         .font(.title)
-                    .foregroundColor(.black)
+                        .foregroundColor(.black)
                     
                     Circle()
                         .fill(Color.red)
